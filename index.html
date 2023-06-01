@@ -65,6 +65,7 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/layout.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/banner.js"></script>
@@ -86,6 +87,7 @@
         <div class="banner-slide">
           <div class="swiper sw-banner">
             <div class="swiper-wrapper">
+              <!-- json 연동 완료 -->
               <div class="swiper-slide"><a href="#">내용1</a></div>
               <div class="swiper-slide"><a href="#">내용2</a></div>
               <div class="swiper-slide"><a href="#">내용3</a></div>
@@ -102,9 +104,9 @@
           <div class="sw-banner-control">
             <div class="sw-banner-pg"></div>
           </div>
+          <!-- 닫기/열기 -->
+          <button class="banner-bt">버튼</button>
         </div>
-        <!-- 닫기/열기 -->
-        <button class="banner-bt">버튼</button>
       </section>
       <!--// 배너 -->
       <!-- 상단 -->
@@ -114,27 +116,90 @@
       <!--// 상단 -->
       <!-- 비주얼 -->
       <section class="visual">
-        <div class="container"></div>
+        <div class="visual-slide">
+          <!-- slide 넣어보기 -->
+          슬라이드 입니다.
+        </div>
       </section>
       <!--// 비주얼 -->
       <!-- 뉴스룸   -->
       <section class="newsroom">
-        <div class="container"></div>
+        <div class="container">
+          <div class="newsroom-wrap">
+            <!-- json 연동 -->
+          </div>
+        </div>
       </section>
       <!--// 뉴스룸   -->
       <!-- 퀵메뉴 -->
       <section class="quickmenu">
-        <div class="container"></div>
+        <div class="container">
+          <div class="quickmenu-wrap">
+            <div class="swiper sw-quickmenu">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!--// 퀵메뉴 -->
       <!-- 학사안내 -->
       <section class="schedule">
-        <div class="container"></div>
+        <div class="container">
+          <div class="schedule-wrap"></div>
+        </div>
       </section>
       <!--// 학사안내 -->
       <!-- 소식  -->
       <section class="news">
-        <div class="container"></div>
+        <div class="container">
+          <div class="news-wrap">
+            <div class="news-top">
+              <h2>영남소식</h2>
+              <p>설명글</p>
+            </div>
+            <div class="news-main">
+              <div class="news-tabmenu">
+                <a href="#" class="tab-menu-active">메뉴1</a>
+                <a href="#">메뉴2</a>
+                <a href="#">메뉴3</a>
+              </div>
+              <div class="news-tabcon">
+                <div class="tab-con-active" style="background-color: aqua">
+                  내용 1 <br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                  saepe enim fugit? Cum quae neque quaerat ullam accusantium
+                  recusandae dolore reiciendis corrupti ex. Dolore illum
+                  doloribus libero voluptatem debitis ad!
+                </div>
+                <div style="background-color: brown">
+                  내용 2 <br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A rem
+                  vero odit corrupti laboriosam ea neque illo recusandae
+                  laudantium delectus architecto est vitae natus, fuga, tempore
+                  doloribus in earum velit?
+                </div>
+                <div style="background-color: plum">
+                  내용 3 <br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum laboriosam similique ducimus obcaecati corporis
+                  quidem repellat excepturi totam, atque voluptate. Ex suscipit
+                  ab distinctio quas molestias assumenda modi nihil aut!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!--// 소식  -->
       <!-- 스토리 -->
